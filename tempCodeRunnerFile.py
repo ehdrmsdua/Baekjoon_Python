@@ -1,9 +1,7 @@
-x = 1
-y = 2
-swap(x,y)
-print(a,b)
-
-def swap(a,b):
-    tmp = a
-    a = b
-    b = tmp
+A = int(input())
+op = input()
+B = int(input())
+if op == '*':
+    print(A*B)
+elif op == '+':
+    print(A+B)
