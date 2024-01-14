@@ -1,10 +1,9 @@
 import re
 
 V = int(input())
-who = V * r'\S'
+who = V * r'(\S)'
 man = input()
-result = re.findall(who, man)
-print(result)
+result = re.findall(who, man)[0]
 if result.count('A') > result.count('B'):
     print('A')
 elif result.count('A') < result.count('B'):
