@@ -13,5 +13,5 @@ for _ in range(N):
     else:
         C.append('Q4')
 for i in range(4):
-    print('Q{} : {}'.format(i+1, C.count('Q'i+1)))
+    print('Q{}: {}'.format(i+1, C.count('Q{}'.format(i+1))))
 print('AXIS: {}'.format(C.count('AXIS')))
