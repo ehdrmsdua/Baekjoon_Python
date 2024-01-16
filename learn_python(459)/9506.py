@@ -11,7 +11,7 @@ while True:
     for j in range(len(w)):
         T = T+w[j]
     if T == n:
-        res.append(f'{T} =' + ' + '.join(map(str,w)))
+        res.append(f'{T} = ' + ' + '.join(map(str,w)))
     else: 
         res.append(f'{n} is NOT perfect.')
     
